@@ -1,0 +1,186 @@
+
+header, nav, main, footer { display: block; }
+body { background-color: #000033;
+      color: #666666;
+	  font-family: Verdana, Arial, sans-serif;
+	  background-image: linear-gradient(to bottom,#ffc514, #ff5a14);
+}
+header { background-color: #1d7fcf;
+         color: #FFFFFF;
+		 font-family: Arial, sans-serif;
+}
+aside {background-color: #ffffff;
+      float: right;
+      width: 212px;
+      padding-left:1em;
+      padding-right: .8em;
+      padding-top: 0;
+      text-align:central;
+      }
+
+h4{font-size: 1.19em;
+  text-align: central;
+  font-weight: bold;
+  color: #ff5a14;
+  margin-top: 1em}
+
+aside p {font-size: .9em;
+  color: #000033;}
+img{float: left;}
+h1 {
+     background-image: url(fulllogo.png);
+     background-repeat: no-repeat;
+     background-position:center;
+     background-size:85%;
+     padding: 5em;
+     height: 50px;
+	 margin-bottom: 0;
+   padding-left:5px;
+   padding-right:5px;
+}
+nav { font-weight: bold;
+      padding: 0;
+	  display: inline;
+    width: auto;
+    height: auto;
+    padding-top: 0.01em;
+    padding-bottom: 0.01em;
+    padding-left: 1em;
+    padding-right: 1em;
+
+
+
+}
+
+nav li{float:left;
+  }
+nav ul { list-style-type:none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+}
+
+nav a { text-decoration: none;
+      padding-left: 1.2em;
+      padding-right: 1.2em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      width: auto;
+      display:block;
+      }
+nav a:link { color: #FFFFFF; }
+nav a:visited { color: #C2E0F0; }
+nav a:hover {background-color: #ff5a14;
+  color: #ffffff;
+  }
+h2 { color: #1d7fcf;
+     font-family: Arial, Verdana, sans-serif;
+     font-size: 2em;
+     background-image:url(diamond.png);
+     background-repeat: no-repeat;
+     background-position: left;
+     background-size:contain;
+     padding-left: 65px;
+}
+p {font-size: 1.2em;
+  font-family: Arial, Verdana, sans-serif;}
+
+h3 { color: #000033; }
+dt { color: #000033;
+   font-weight: bold;
+}
+footer { font-size: .70em;
+         font-style: italic;
+		 text-align: center;
+		 padding: 1em;
+		 background-color: #FFFFFF;
+     margin-left: 0;
+     margin-right: 0;
+}
+main {
+  padding-left: 2em;
+      padding-right: 2em;
+	  padding-bottom: 1em;
+	  padding-top: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    height: 1300px;
+	  background-color: #FFFFFF;
+}
+#TeamEmma {float:right;
+  width: 300px;}
+#TeamKrysta {float:left;
+  width: 300px;}
+h3{text-align: center;}
+dd{margin-left: 3em;}
+
+#wrapper { width: 80%;
+          margin:auto;
+		  background-color: #000033;
+		  min-width: 700px;
+		  max-width: 1024px;
+		  box-shadow: 3px 3px 3px #000033;
+}
+#CurrentScores {
+  background-image:url(currentscores.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 600px;
+  width: auto;
+  margin: 0;
+  background-size: 75%;
+  padding: 0;
+  }
+
+@media only all and (max-width: 1024px){
+  body{margin: 0;
+      padding: 0;
+      background-image: none;
+      height: 2000px;
+      }
+  #wrapper {width: auto;
+            min-width: 0;
+            margin: 0;
+            box-shadow: none;
+            height: 200px;
+            }
+  h1{height: 35%;
+    font-size: 3em;
+    padding: 2em;
+    margin: 0;
+    }
+  h2{background-image: none;
+    padding-left: 0;}
+  nav, nav ul, nav li {padding-left: .5em;
+    padding-right: .5em;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    float:none;
+    width: auto;
+    text-align: center;
+    font-size: 105%}
+  nav li {display: block;
+          float: none;
+          }
+  nav a {display: block;
+          position: relative;
+          }
+
+
+main {padding-top: 0.1em;
+      padding-right: .6em;
+      padding-bottom: .1em;
+      padding-left: .4em;
+      margin-left: 0;
+      margin-right: 0;2
+      height: 3000px;
+      background-color: #ffffff;
+
+    }
+
+  footer{padding: 0;
+    margin-left: 0;
+    margin-right: 0;}
+
+}
